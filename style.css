@@ -146,6 +146,7 @@ label span { color: var(--accent); margin-left: .3rem; }
 
 /* slider */
 input[type=range] {
+  appearance: none;
   -webkit-appearance: none;
   width: 100%;
   height: 4px;
