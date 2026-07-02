@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "PowerShell(gh repo view CarlosArantes53/NASA_MBA --json name,description,isPrivate)",
+      "PowerShell(gh api repos/CarlosArantes53/NASA_MBA/git/trees/main?recursive=1 --jq '.tree[].path')",
+      "Bash(curl -s \"https://api.github.com/repos/CarlosArantes53/NASA_MBA/git/trees/main?recursive=1\")",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e \"console.log\\(require.resolve\\('playwright'\\)\\)\")",
+      "Bash(npm run *)"
+    ]
+  }
+}
